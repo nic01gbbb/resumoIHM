@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00008b;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.todo h1 {
+  margin-bottom: 10px;
+  background-color: red;
+  padding: 10px;
+}
+.todo h2 {
+  border-bottom: 3px solid red;
+  padding-bottom: 10px;
+  max-width: 250px;
+}
+
+.todo h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.todo h3 {
+  display: flex;
+  align-items: start;
+}
+
+.todo p {
+  max-width: 500px;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.8);
+  padding: 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo img {
+  width: 400px;
+  height: 200px;
+  display: flex;
+}
+.todo h4 {
+  font-weight: 800;
+  background-color: green;
+  color: white;
+}
+.Nielsem {
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  max-width: 500px;
+}
+.h3nielsem {
+  margin-top: 50px;
+}
+.primeiraimgE img {
+  width: 500px;
+}
+
+.todo h5 {
+  background-color: red;
+  color: white;
+}
